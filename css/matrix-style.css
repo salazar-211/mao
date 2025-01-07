@@ -152,7 +152,7 @@ hr {
   background: #da9628;
 }
 .bg_ls {
-  background: #22a470;
+  background: #2255a4;
 }
 .bg_lo {
   background: #da542e;
@@ -164,7 +164,7 @@ hr {
   background: #603bbc;
 }
 .bg_lh {
-  background: #28b779;
+  background: #b6b3b3;
 }
 
 /* Header */
@@ -175,8 +175,9 @@ hr {
   z-index: -9;
 }
 
-
-
+#header h1 a {
+  display: block;
+}
 /* Search input */
 #search {
   position: absolute;
@@ -236,7 +237,7 @@ hr {
 #user-nav > ul > li > a:hover,
 #user-nav > ul > li.open > a {
   color: #ffffff;
-  background: #007bff;
+  background: #000;
 }
 #user-nav > ul > li > a > i,
 #sidebar li a i {
@@ -277,12 +278,11 @@ hr {
   display: block;
   position: relative;
 }
-#sidebar ul li a {
-  padding: 10px 0 10px 15px !important;
+#sidebar > ul > li > a {
+  padding: 10px 0 10px 15px;
   display: block;
-  color: #ffffff !important; /* Change to the color you want */
+  color: #939da8;
 }
-
 #sidebar > ul > li > a > i {
   margin-right: 10px;
 }
@@ -315,8 +315,6 @@ hr {
 #sidebar > ul li ul li:last-child a {
   border-bottom: 0;
 }
-
-
 /* Content */
 #content {
   background: none repeat scroll 0 0 #eeeeee;
@@ -654,7 +652,9 @@ hr {
   font-size: 24px;
   clear: both;
 }
-
+.site-stats li:hover {
+  background: #2e363f;
+}
 
 .site-stats li i {
   vertical-align: baseline;
@@ -777,7 +777,6 @@ div.dataTables_wrapper .ui-widget-header {
   float: left;
   border-right: 1px solid #dadada;
 }
-
 .widget-title h5 {
   color: #666;
   float: left;
@@ -801,7 +800,7 @@ div.dataTables_wrapper .ui-widget-header {
   margin-right: 190px;
 }
 .widget-content {
-  padding: 20px;
+  padding: 15px;
   border-bottom: 1px solid #cdcdcd;
 }
 .widget-box.widget-plain .widget-content {
@@ -1496,12 +1495,6 @@ form {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   margin-left: 8px;
-}
-.quick-actions li a i[class^="fa-"],
-.quick-actions li a i[class*=" fa-"] {
-  font-size: 35px;
-  display: block;
-  margin: 0 auto 5px;
 }
 .accordion {
   margin-top: 16px;
